@@ -1,0 +1,23 @@
+{
+  "name": "DontDropTheSun",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "GameServer": {
+        "$path": "src/server/GameServer.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "SunController": {
+          "$path": "src/client/SunController.client.lua"
+        }
+      }
+    }
+  }
+}
